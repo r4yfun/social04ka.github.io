@@ -1,0 +1,49 @@
+.sidebar {
+    flex-grow: 1;
+    background-color: #363940;
+
+    .logo {
+        text-align: center;
+        font-weight: 600;
+        font-size: 32px;
+        padding: 35px 10px;
+        height: 100px;
+        color: white;
+        background-color: #e44231;
+    }
+
+    .nav {
+        background-color: #3f424a;
+        padding: 20px 0;
+
+        .item {
+            a {
+                color: white;
+                padding: 10px 20px;
+                display: block;
+            }
+        }   
+
+        
+
+        .active {
+            
+        }
+    }
+
+    .friends {
+        padding: 20px;
+
+        h3 {
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .friendList {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }
+}
+    

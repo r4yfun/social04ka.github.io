@@ -1,0 +1,19 @@
+.friend {
+    color: #94b1c7;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid;
+    border-color: #4c4c4c;
+
+    &:first-child {
+        border-top: 1px solid #4c4c4c;
+    }
+    
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+}

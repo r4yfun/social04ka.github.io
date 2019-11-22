@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Nunito,Arial,Helvetica,sans-serif;
+  font-weight: 400;
+  color: #494949;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  flex-grow: 5;
+}
+.app-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.app-wrapper-content {
+
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  border: none;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  min-height: 100px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}

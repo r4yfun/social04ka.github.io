@@ -26,21 +26,21 @@ a {
 .app-wrapper {
   display: flex;
   flex-direction: row;
-  height: 100vh;
 }
 .app-wrapper-content {
 
 }
 
-.btn {
+button {
   display: inline-block;
-  padding: 10px 14px;
+  padding: 8px 13px;
   border: none;
   background-color: #ec4d3b;
   color: white;
   font-size: 14px;
   font-weight: 200;
   border-radius: 3px;
+  min-width: 80px;
 }
 
 textarea {

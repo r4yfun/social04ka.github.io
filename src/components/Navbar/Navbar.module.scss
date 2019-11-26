@@ -1,5 +1,5 @@
 .sidebar {
-    flex-grow: 1;
+    min-width: 220px;
     background-color: #363940;
 
     .logo {
@@ -20,7 +20,7 @@
             a {
                 color: white;
                 padding: 10px 20px;
-                display: block;
+                display: block;         
             }
         }   
 
@@ -46,4 +46,9 @@
         }
     }
 }
-    
+
+@media screen and (max-width: 675px) {
+    .sidebar {
+        display: none;
+    }
+}
